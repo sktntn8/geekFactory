@@ -98,7 +98,8 @@
 		D932C0DC1EA4DC2E00E530B3 /* CheckLists */ = {
 			isa = PBXGroup;
 			children = (
-				D9E33DF21EB9CAB100BF9F16 /* DataManager.swift */,
+				D974D6D61EB9EB3C00E29C66 /* SelectIconTableViewController */,
+				D974D6D71EB9EB4800E29C66 /* MangementFiles */,
 				D9313DD01EB3B49D00B54250 /* CategriesTableViewController */,
 				D9AEEC651EA7E02900680EDF /* ModeL Data */,
 				D99581141EB3B07C00D97BBF /* addTableViewController */,
@@ -109,10 +110,25 @@
 				D932C0E61EA4DC2E00E530B3 /* LaunchScreen.storyboard */,
 				D932C0E91EA4DC2E00E530B3 /* Info.plist */,
 				D9313DD71EB3C0E400B54250 /* addNewCategoryTableViewController */,
-				D99A444C1EB736810030A652 /* Protocols.swift */,
-				D9E33DF01EB947D200BF9F16 /* SelectIconTableViewController.swift */,
 			);
 			path = CheckLists;
+			sourceTree = "<group>";
+		};
+		D974D6D61EB9EB3C00E29C66 /* SelectIconTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D9E33DF01EB947D200BF9F16 /* SelectIconTableViewController.swift */,
+			);
+			name = SelectIconTableViewController;
+			sourceTree = "<group>";
+		};
+		D974D6D71EB9EB4800E29C66 /* MangementFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D99A444C1EB736810030A652 /* Protocols.swift */,
+				D9E33DF21EB9CAB100BF9F16 /* DataManager.swift */,
+			);
+			name = MangementFiles;
 			sourceTree = "<group>";
 		};
 		D99581141EB3B07C00D97BBF /* addTableViewController */ = {
