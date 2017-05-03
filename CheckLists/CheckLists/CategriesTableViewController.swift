@@ -164,7 +164,7 @@ extension CategriesTableViewController{
         let uncheckedItems = item.countUncheckedItems()
         print(uncheckedItems)
         if item.itemsArray.count == 0 {
-            cell.detailLabel!.text = "No Items"
+            cell.detailLabel!.text = "No  Items"
         }else {
             cell.detailLabel!.text = "\(uncheckedItems)"
         }
